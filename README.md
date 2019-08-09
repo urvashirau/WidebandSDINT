@@ -20,7 +20,7 @@ Note : To only re-make the PNG figures one by one, set " action='plot' " in the 
 
 ### Examples
 
-The simulated source consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  Single pointing simulations were done without primary beams and a mosaic simulation was done along with primary beams.  Imaging includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. 
+The simulated source consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  Single pointing simulations were done without primary beams and a mosaic simulation was done along with primary beams.  Imaging includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. These data were designed to illustrate the situation where interferometer-only reconstructions incur sufficient error (and instability) that a single-step post-deconvolution merge with single dish data is insufficient to recover the source structure accurately and therefore a joint reconstruction is required. 
 
 ##### Single Pointing : A wideband imaging simulation devoid of primary beams
 
