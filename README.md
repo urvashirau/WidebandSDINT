@@ -61,4 +61,6 @@ Imaging examples includes wideband multi-term imaging (intensity and spectral in
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_sdonly.png)
  
 
-Additional examples are located in the Runs subdirectory. 
+Additional examples are located in the Runs subdirectory.
+
+An initial version of this algorithm is expected to be made available as a CASA task in the next year. 
