@@ -29,34 +29,36 @@ The simulated sky brightness consists of large scale structures at and just belo
 
 Imaging examples includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. These data were designed to illustrate the situation where interferometer-only reconstructions incur sufficient error (and instability) that a single-step post-deconvolution merge with single dish data is insufficient to recover the source structure accurately and therefore a joint reconstruction is required. For example, the interferometer-only reconstructions require masks and frequent major cycles to avoid divergence, whereas the joint reconstructions are stable even without masks and with fewer major cycles. 
 
-##### Single Pointing : A wideband imaging simulation devoid of primary beams
+#### Single Pointing : A wideband imaging simulation devoid of primary beams
 
- Joint Reconstruction with Single Dish + Interferometer Data
+ Single Pointing : Joint Reconstruction with Single Dish + Interferometer Data
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_sdint.png)
  
- Interferometer Data only 
+ Single Pointing : Interferometer Data only 
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_intonly.png)
  
- Single Dish Data only
+ Single Pointing : Single Dish Data only
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_sdonly.png)
 
-##### Mosaic : A wideband imaging simulation with frequency-dependent primary beams and wideband mosaic primary beam correction
+#### Mosaic : A wideband imaging simulation with frequency-dependent primary beams and wideband mosaic primary beam correction
 
- Joint Reconstruction with Single Dish + Interferometer Data
+ Mosaic : Joint Reconstruction with Single Dish + Interferometer Data
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_mosaic_mfs_mtmfs_sdint.png)
  
- Interferometer Data only 
+ Mosaic : Interferometer Data only 
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_mosaic_mfs_mtmfs_intonly.png)
  
  
- ##### A Cube Imaging Example  
+ #### A Cube Imaging Example  
  
-Joint Reconstruction with Single Dish + Interferometer Data
+ Cube single pointing : Joint Reconstruction with Single Dish + Interferometer Data
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_sdint.png)
  
- Interferometer Data only 
+ Cube single pointing : Interferometer Data only 
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_intonly.png)
  
- Single Dish Data only
+ Cube single pointing : Single Dish Data only
  ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_sdonly.png)
  
+
+Additional examples are located in the Runs subdirectory. 
