@@ -4,7 +4,7 @@ Joint Reconstruction of Wideband Single Dish and Interferometer data for Radio A
 ### Publication
 [A Joint Deconvolution Algorithm to Combine Single-dish and Interferometer Data for Wideband Multiterm and Mosaic Imaging](https://iopscience.iop.org/article/10.3847/1538-3881/ab1aa7/meta) , Rau, U. ; Naik, N. ; Braun, T. Astronomical Journal, Volume 158, Number 1, June 2019 
 
-This repository contains python scripts that work with [CASA](https://casa.nrao.edu), a pointer to two simulated datasets, and a series of output PNG figures to compare and evaluate the results of different algorithmic options. 
+This repository contains python scripts that work with [CASA](https://casa.nrao.edu), a download link for two simulated datasets, and a series of output PNG figures to compare and evaluate the results of different algorithmic options. 
 
 ### Running the tests
 
@@ -20,7 +20,7 @@ Note : To only re-make the PNG figures one by one, set " action='plot' " in the 
 
 ### Examples
 
-The simulated source consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  
+The simulated source consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  Single pointing simulations were done without primary beams and a mosaic simulation was done along with primary beams.  Imaging includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. 
 
 ##### Single Pointing : A wideband imaging simulation devoid of primary beams
 
