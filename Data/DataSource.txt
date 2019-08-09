@@ -1,6 +1,6 @@
 (1) Please download required data from 
 
-ftp://ftp.aoc.nrao.edu/pub/staff/rurvashi/Data_For_WidebandSDINT_UR_github.tgz
+http://www.aoc.nrao.edu/~rurvashi/DataFiles/Data_For_WidebandSDINT_UR_github.tgz
 
 File size : 53MB.
 
