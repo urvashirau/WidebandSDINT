@@ -12,8 +12,7 @@ To run the examples,
 
 (2) Run scripts from the Runs directory, within CASA.  
 
-execfile('../Scripts/runsdint.py')
-runtest(1);runtest(2);runtest(3); etc.... 
+execfile('../Scripts/runsdint.py');runtest(1);runtest(2);runtest(3); etc.... 
 
 Generated outputs are CASA log files, output CASA image files, and PNG figure files that summarize the imaging results for each example. Scripts/runsdint.py contains documentation on each of the tests triggered by runtest(num). 
 
