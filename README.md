@@ -25,31 +25,31 @@ The simulated source consists of large scale structures at and just below the sp
 ##### Single Pointing : A wideband imaging simulation devoid of primary beams
 
  Joint Reconstruction with Single Dish + Interferometer Data
- ![Fig](Runs/fig.try_standard_mfs_mtmfs_sdint.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_sdint.png)
  
  Interferometer Data only 
- ![Fig](Runs/fig.try_standard_mfs_mtmfs_intonly.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_intonly.png)
  
  Single Dish Data only
- ![Fig](Runs/fig.try_standard_mfs_mtmfs_sdonly.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_mfs_mtmfs_sdonly.png)
 
 ##### Mosaic : A wideband imaging simulation with frequency-dependent primary beams and wideband mosaic primary beam correction
 
  Joint Reconstruction with Single Dish + Interferometer Data
- ![Fig](Runs/fig.try_mosaic_mfs_mtmfs_sdint.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_mosaic_mfs_mtmfs_sdint.png)
  
  Interferometer Data only 
- ![Fig](Runs/fig.try_mosaic_mfs_mtmfs_intonly.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_mosaic_mfs_mtmfs_intonly.png)
  
  
  ##### A Cube Imaging Example  
  
 Joint Reconstruction with Single Dish + Interferometer Data
- ![Fig](Runs/fig.try_standard_cube_multiscale_sdint.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_sdint.png)
  
  Interferometer Data only 
- ![Fig](Runs/fig.try_standard_cube_multiscale_intonly.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_intonly.png)
  
  Single Dish Data only
- ![Fig](Runs/fig.try_standard_cube_multiscale_sdonly.png)
+ ![Fig](https://github.com/urvashirau/WidebandSDINT/blob/master/Runs/fig.try_standard_cube_multiscale_sdonly.png)
  
