@@ -1,0 +1,24 @@
+(1) Please download required data from 
+
+ftp://ftp.aoc.nrao.edu/pub/staff/rurvashi/Data_For_WidebandSDINT_UR_github.tgz
+
+File size : 53MB.
+
+(2) Untar into the Data directory
+
+tar -zxvf Data_For_WidebandSDINT_UR_github.tgz
+
+
+DataSource.txt
+papersky_mosaic.ms/
+papersky_mosaic.sdimage/
+papersky_mosaic.sdpsf/
+papersky_mosaic.smoothtrue/
+papersky_mosaic.true.im/
+papersky_mosaic.true.im.masklist
+papersky_standard.ms/
+papersky_standard.sdimage/
+papersky_standard.sdpsf/
+papersky_standard.smoothtrue/
+papersky_standard.true.im/
+papersky_standard.true.im.masklist
