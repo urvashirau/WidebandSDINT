@@ -4,9 +4,12 @@ Joint Reconstruction of Wideband Single Dish and Interferometer data for Radio A
 ### Publication
 [A Joint Deconvolution Algorithm to Combine Single-dish and Interferometer Data for Wideband Multiterm and Mosaic Imaging](https://iopscience.iop.org/article/10.3847/1538-3881/ab1aa7/meta) , Rau, U. ; Naik, N. ; Braun, T. Astronomical Journal, Volume 158, Number 1, June 2019 
 
-This repository contains python scripts that work with [CASA](https://casa.nrao.edu), a download link for two simulated datasets, and a series of output PNG figures to compare and evaluate the results of different algorithmic options. 
+![Algorithm](https://github.com/urvashirau/WidebandSDINT/blob/master/Fig_Algo.png)
+
 
 ### Running the tests
+
+This repository contains python scripts that work with [CASA](https://casa.nrao.edu), a download link for two simulated datasets, and a series of output PNG figures to compare and evaluate the results of different algorithmic options. 
 
 (1) Download simulated [DATA](http://www.aoc.nrao.edu/~rurvashi/DataFiles/Data_For_WidebandSDINT_UR_github.tgz) and untar inside the Data directory.
 
@@ -20,7 +23,11 @@ Note : To only re-make the PNG figures one by one, set " action='plot' " in the 
 
 ### Examples
 
-The simulated source consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  Single pointing simulations were done without primary beams and a mosaic simulation was done along with primary beams.  Imaging includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. These data were designed to illustrate the situation where interferometer-only reconstructions incur sufficient error (and instability) that a single-step post-deconvolution merge with single dish data is insufficient to recover the source structure accurately and therefore a joint reconstruction is required. 
+A pair of datasets were simulated for single pointing and mosaic imaging for the VLA and GBT across L-Band (1-2 GHz). 
+
+The simulated sky brightness consists of large scale structures at and just below the spatial frequency range sampled by the interferometer as well as three point sources. The spectral indices of the extended component and the right-most point source is 0.0 and the other two point sources have spectral indices of -1.0.  Single pointing simulations were done without primary beams and a mosaic simulation was done along with primary beams.  
+
+Imaging examples includes wideband multi-term imaging (intensity and spectral index) as well as spectral cube imaging where each of three channels are treated separately. These data were designed to illustrate the situation where interferometer-only reconstructions incur sufficient error (and instability) that a single-step post-deconvolution merge with single dish data is insufficient to recover the source structure accurately and therefore a joint reconstruction is required. For example, the interferometer-only reconstructions require masks and frequent major cycles to avoid divergence, whereas the joint reconstructions are stable even without masks and with fewer major cycles. 
 
 ##### Single Pointing : A wideband imaging simulation devoid of primary beams
 
