@@ -9,7 +9,7 @@ This repository contains python scripts that work with [CASA](https://casa.nrao.
 
 To run the examples,
 
-(1) Download simulated datasets [Data_For_WidebandSDINT_UR_github.tgz](ftp://ftp.aoc.nrao.edu/pub/staff/rurvashi/Data_For_WidebandSDINT_UR_github.tgz) and untar inside the Data directory.
+(1) Download simulated [DATA](http://www.aoc.nrao.edu/~rurvashi/DataFiles/Data_For_WidebandSDINT_UR_github.tgz) and untar inside the Data directory.
 
 (2) Run scripts from the Runs directory, within CASA.  
 
